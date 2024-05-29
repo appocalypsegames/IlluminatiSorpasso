@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="75dp"
+            android:onClick="goToMain"
+            android:src="@drawable/flecha" />
+
+        <TextView
+            android:id="@+id/coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:text="COINS:0"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain0"
+            android:padding="5sp"
+            android:src="@drawable/character" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain1"
+            android:padding="5sp"
+            android:src="@drawable/characterb" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain2"
+            android:padding="5sp"
+            android:src="@drawable/characterc" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/characterd"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain3"
+            android:padding="5sp"
+            android:src="@drawable/player0d" />
+
+        <ImageView
+            android:id="@+id/charactere"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain4"
+            android:padding="5sp"
+            android:src="@drawable/player0e" />
+
+        <ImageView
+            android:id="@+id/characterf"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain5"
+            android:padding="5sp"
+            android:src="@drawable/player0f" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:id="@+id/characterg"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain6"
+            android:padding="5sp"
+            android:src="@drawable/player0g" />
+
+        <ImageView
+            android:id="@+id/characterh"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain7"
+            android:padding="5sp"
+            android:src="@drawable/player0hb" />
+
+        <ImageView
+            android:id="@+id/characteri"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:onClick="goToMain8"
+            android:padding="5sp"
+            android:src="@drawable/player0ib" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/nocoins"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:shadowColor="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|center">
+
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/av_bottom_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7323401413378084/2393296456" />
+    </LinearLayout>
+
+</LinearLayout>
